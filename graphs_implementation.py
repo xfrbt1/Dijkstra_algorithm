@@ -18,11 +18,6 @@ class Graph:
             print(k, v)
 
 
-nodes = ['a', 'b', 'c', 'd']
-a_link = [['b', 5], ['d', 3]]
-graph = Graph(nodes)
-graph.create_links('a', a_link)
-graph.print_all_nodes()
 
 
 
